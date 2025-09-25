@@ -1,8 +1,17 @@
 /* Expert Page Specific Styles */
 
+/* Ensure stable scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 /* Expert Hero Section */
 .expert-hero {
-    min-height: 80vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
     display: flex;
     align-items: center;
@@ -45,6 +54,7 @@
 .expert-cta .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    will-change: transform;
 }
 
 .expert-title {
@@ -94,6 +104,7 @@
     background: white;
     position: relative;
     z-index: 10;
+    width: 100%;
 }
 
 .benefits-grid {
@@ -176,6 +187,7 @@
     background: #f8fafc;
     position: relative;
     z-index: 10;
+    width: 100%;
 }
 
 .process-steps {
@@ -300,6 +312,7 @@
     background: white;
     position: relative;
     z-index: 10;
+    width: 100%;
 }
 
 .categories-grid {
@@ -363,6 +376,7 @@
     color: white;
     position: relative;
     z-index: 10;
+    width: 100%;
 }
 
 .registration-content {
