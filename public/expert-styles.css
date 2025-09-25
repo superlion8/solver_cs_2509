@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     padding-top: 70px;
+    padding-bottom: 50px;
     position: relative;
     overflow: hidden;
 }
@@ -100,11 +101,12 @@ body {
 
 /* Benefits Section */
 .expert-benefits {
-    padding: 100px 0;
+    padding: 120px 0;
     background: white;
     position: relative;
     z-index: 10;
     width: 100%;
+    margin-top: 0;
 }
 
 .benefits-grid {
@@ -183,11 +185,12 @@ body {
 
 /* Process Section */
 .expert-process {
-    padding: 100px 0;
+    padding: 120px 0;
     background: #f8fafc;
     position: relative;
     z-index: 10;
     width: 100%;
+    margin-top: 0;
 }
 
 .process-steps {
@@ -308,11 +311,12 @@ body {
 
 /* Categories Section */
 .expert-categories {
-    padding: 100px 0;
+    padding: 120px 0;
     background: white;
     position: relative;
     z-index: 10;
     width: 100%;
+    margin-top: 0;
 }
 
 .categories-grid {
@@ -371,12 +375,13 @@ body {
 
 /* Registration Section */
 .expert-registration {
-    padding: 100px 0;
+    padding: 120px 0;
     background: #1a1a1a;
     color: white;
     position: relative;
     z-index: 10;
     width: 100%;
+    margin-top: 0;
 }
 
 .registration-content {
