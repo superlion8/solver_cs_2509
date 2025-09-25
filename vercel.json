@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "solver-website/package.json",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["solver-website/**"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "solver-website/index.html"
+    },
+    {
+      "src": "/expert",
+      "dest": "solver-website/expert.html"
+    },
+    {
+      "src": "/styles.css",
+      "dest": "solver-website/styles.css"
+    },
+    {
+      "src": "/expert-styles.css",
+      "dest": "solver-website/expert-styles.css"
+    },
+    {
+      "src": "/script.js",
+      "dest": "solver-website/script.js"
+    },
+    {
+      "src": "/expert-script.js",
+      "dest": "solver-website/expert-script.js"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "solver-website/server.js"
+    }
+  ],
+  "functions": {
+    "solver-website/server.js": {
+      "maxDuration": 10
+    }
+  }
+}

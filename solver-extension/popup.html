@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solver Extension</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .header h1 {
+      font-size: 24px;
+      margin: 0 0 8px 0;
+      font-weight: 700;
+    }
+    
+    .header p {
+      font-size: 14px;
+      margin: 0;
+      opacity: 0.9;
+    }
+    
+    .feature-list {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .feature-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    
+    .feature-item:last-child {
+      margin-bottom: 0;
+    }
+    
+    .feature-icon {
+      margin-right: 8px;
+      font-size: 16px;
+    }
+    
+    .action-buttons {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .btn {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+    }
+    
+    .btn-primary {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    
+    .btn-primary:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: translateY(-1px);
+    }
+    
+    .instructions {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 12px;
+      margin-top: 16px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Solver</h1>
+    <p>Verified answers. Actionable steps.</p>
+  </div>
+  
+  <div class="feature-list">
+    <div class="feature-item">
+      <span class="feature-icon">🔍</span>
+      <span>Double check AI answers with experts</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">👨‍💼</span>
+      <span>Find expert consultancy services</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">⚡</span>
+      <span>Works on ChatGPT, Gemini, Claude</span>
+    </div>
+  </div>
+  
+  <div class="action-buttons">
+    <a href="http://192.168.1.148:8080" target="_blank" class="btn btn-primary">
+      Open Solver Chat
+    </a>
+  </div>
+  
+  <div class="instructions">
+    <strong>How to use:</strong><br>
+    1. Select any text on ChatGPT, Gemini, or Claude<br>
+    2. Click the floating buttons that appear<br>
+    3. Get expert verification or consultancy
+  </div>
+</body>
+</html>
