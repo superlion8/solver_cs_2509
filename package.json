@@ -1,0 +1,13 @@
+{
+  "name": "solver",
+  "version": "1.0.0",
+  "description": "Solver - Verified answers. Actionable steps.",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site - no start needed'",
+    "dev": "echo 'Static site - no dev needed'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
