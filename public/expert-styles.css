@@ -3,7 +3,7 @@
 /* Expert Hero Section */
 .expert-hero {
     min-height: 80vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
     display: flex;
     align-items: center;
     padding-top: 70px;
@@ -24,7 +24,7 @@
 
 .expert-hero-content {
     text-align: center;
-    color: white;
+    color: #1a1a1a;
     position: relative;
     z-index: 1;
 }
@@ -39,7 +39,7 @@
 .expert-subtitle {
     font-size: 1.4rem;
     margin-bottom: 48px;
-    opacity: 0.9;
+    color: #64748b;
     line-height: 1.6;
     max-width: 600px;
     margin-left: auto;
@@ -61,13 +61,13 @@
     display: block;
     font-size: 2.5rem;
     font-weight: 800;
-    color: #ffd700;
+    color: #2563eb;
     margin-bottom: 8px;
 }
 
 .expert-stat .stat-label {
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: #64748b;
 }
 
 /* Benefits Section */
@@ -86,11 +86,11 @@
 .benefit-card {
     background: white;
     padding: 40px 30px;
-    border-radius: 20px;
+    border-radius: 16px;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
     position: relative;
     overflow: hidden;
 }
@@ -102,7 +102,7 @@
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #2563eb;
 }
 
 .benefit-card:hover {
@@ -119,18 +119,18 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 16px;
-    color: #333;
+    color: #1a1a1a;
 }
 
 .benefit-card p {
-    color: #666;
+    color: #64748b;
     line-height: 1.6;
 }
 
 /* Process Section */
 .expert-process {
     padding: 100px 0;
-    background: #f8f9fa;
+    background: #f8fafc;
 }
 
 .process-steps {
@@ -146,9 +146,10 @@
     gap: 20px;
     background: white;
     padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
 }
 
 .process-step:hover {
@@ -159,7 +160,7 @@
 .process-step .step-number {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    background: #2563eb;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -174,11 +175,11 @@
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 12px;
-    color: #333;
+    color: #1a1a1a;
 }
 
 .process-step .step-content p {
-    color: #666;
+    color: #64748b;
     line-height: 1.6;
 }
 
@@ -198,9 +199,9 @@
 .category-card {
     background: white;
     padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e2e8f0;
     transition: all 0.3s ease;
 }
 
@@ -213,7 +214,7 @@
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #333;
+    color: #1a1a1a;
     text-align: center;
 }
 
@@ -224,15 +225,15 @@
 
 .category-card li {
     padding: 8px 0;
-    color: #666;
-    border-bottom: 1px solid #f0f0f0;
+    color: #64748b;
+    border-bottom: 1px solid #e2e8f0;
     position: relative;
     padding-left: 20px;
 }
 
 .category-card li:before {
     content: '•';
-    color: #667eea;
+    color: #2563eb;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -245,7 +246,7 @@
 /* Registration Section */
 .expert-registration {
     padding: 100px 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #1a1a1a;
     color: white;
 }
 
@@ -282,18 +283,18 @@
 }
 
 .registration-benefit .check {
-    color: #28a745;
+    color: #10b981;
     font-weight: 800;
     font-size: 1.2rem;
 }
 
 /* Registration Form */
 .registration-form-container {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .expert-form h3 {
@@ -321,7 +322,7 @@
     width: 100%;
     padding: 12px 16px;
     border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
+    border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
     font-size: 16px;
@@ -367,12 +368,12 @@
 }
 
 .checkbox-label a {
-    color: #ffd700;
+    color: #60a5fa;
     text-decoration: underline;
 }
 
 .checkbox-label a:hover {
-    color: #ffed4e;
+    color: #93c5fd;
 }
 
 /* Modal Styles */
@@ -403,7 +404,7 @@
 
 .modal-content {
     background: white;
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 40px;
     max-width: 500px;
     width: 90%;
@@ -421,7 +422,7 @@
 
 .modal-header h3 {
     margin: 0;
-    color: #333;
+    color: #1a1a1a;
     font-size: 1.5rem;
 }
 
@@ -430,11 +431,11 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: #666;
+    color: #64748b;
 }
 
 .modal-body p {
-    color: #666;
+    color: #64748b;
     line-height: 1.6;
     margin-bottom: 16px;
 }
@@ -446,7 +447,7 @@
 
 .modal-body li {
     margin: 8px 0;
-    color: #666;
+    color: #64748b;
 }
 
 .modal-actions {
