@@ -4,7 +4,7 @@
   "description": "Solver - Verified answers. Actionable steps.",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
+    "build": "./build.sh",
     "start": "echo 'Static site - no start needed'",
     "dev": "echo 'Static site - no dev needed'"
   },
